@@ -8,22 +8,65 @@
 
 <body>
     <H1>tags para tabelas</H1>
-        </p>Para iniciar a construção da tabela é necessario  utilização da Tag <code>< table >...< /table ></code>; é ela que vai ser o esqueleto da tabela... é dentro de <code>< table ></code> que irão as outras tags para a formação da tabela.<p>
-            <pre>
-                Exemplo:
-                    <table>
-                        <thead>
-                                <tr>
-                                    <th>
+<hr>
+    <h2>Tag: <code>< table >...< /table ></code></h2>
+
+        <p>
+            Para iniciar a construção da tabela é necessario  utilização da Tag <code>< table >...< /table ></code>; é ela que vai ser o esqueleto da tabela... é dentro de <code>< table ></code> que irão as outras tags para a formação da tabela.
+        </p>
+
+<hr>
+    <h2> tag: <code>< thead >...< /thead ></code></h2>
+        <p>
+            a tag <code>< thead ></code> é utilizada para sinalizer que nela ira ser inserido o cabeçalho da tabelha. Dentro de thead ira a tag <i>< tr>...< /tr></i>.
+        </p>
+    
+<hr>
+
+    <h2>TAG: <code>< tr >...< /tr ></code></h2>
+
+        <p> A tag <code>< tr>...< /tr></code> é usada para definir uma linha de uma tabela.</p>
+        <p>dentro dessa linha, você coloca celulas que podem ser <mark>cabeçalho <code>(< th >)</code></mark> ou dados <mark><code>(< td >).</code></mark></p>
+
+<hr>
+    
+    <h2> TAG's: <code>< th >...< /th ></code> é <code>< td >...< /td >.</code></h2>
+
+        <p> As tags <mark>< th></mark> e <mark>< td ></mark> são colocadas entre a tag (< tr >...< /tr >).</p>
+        <pre>
+    -> <mark>< th >...< /th ></mark>: Define uma célula de cabeçalho, geralmente exibida em negrito e centralizada.
+    -----------------------------------------------------------------------------------------------------------
+    -> <mark>< td >...< /td></mark>: A tag < td >...< /td > define uma celula de dados, que contem o conteúdo/formação da tabela.
+        </pre>
+<hr>
+
+    <h2> Tag: 1,<code>< tbody >...< /tbody ></code></h2>
+
+        <p>A tag <mark>< tbody >...< /tbody ></mark> é usada para agrupar o corpo de uma tabela, separando-o dos cabeçalhos (< thead >) e rodapé (< tfoot >). </p>
+<hr>
+
+    <h1>EXEMPLO:</h1>
+              <pre>
+                    < table>
+                        < thead>
+                                < tr>
+                                    < th>
                                         
-                                    </th>
-                                </tr>
-                        </thead>
+                                    < /th>
+                                < /tr>
+                        < /thead>
 
-                        <tbody>
+                        < tbody>
+                                < tr >
+                                    < td>
 
-                        </tbody>
-                    </table>
+                                    < /td>
+                                < /tr >
+                        < /tbody>
+
+                    < /table>
             </pre>
+<br>
+
 </body>
 </html>
