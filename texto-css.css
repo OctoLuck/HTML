@@ -1,0 +1,19 @@
+p{
+    color: rgb(100, 90, 98);
+    /* font-size = tamanho da fonte */
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+
+    /* text-align modifica a posição do texto */
+    text-align: left;
+
+    /* text-decoration é usada para colocae ou tirar decorção no texto... como linhas de baixo da frase em link */
+    text-decoration: none;
+
+    
+}
+/* o atributo :hover serve pra por efeito quando se coloca o mause em cima da frase e ela muda de cor */
+p:hover{
+    color: red;
+}
